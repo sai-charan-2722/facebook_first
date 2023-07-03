@@ -1,0 +1,110 @@
+* {
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    background-color: #f0f2f5;
+    justify-content: space-evenly;
+    padding: 50px 50px;
+}
+
+.left {
+    height: 600px;
+    width: 45%;
+    margin: 30px 0 0 200px;
+}
+
+.right {
+
+    height: 600px;
+    width: 45%;
+}
+
+.left img {
+    height: 100px;
+    width: 300px;
+    margin-top: 100px;
+}
+
+.left h2 {
+    height: 75px;
+    width: 400px;
+    margin-left: 40px;
+    font-weight: lighter;
+}
+
+.up {
+    background-color: white;
+    margin-top: 15%;
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.up input[type=email],
+input[type=password] {
+    height: 60px;
+    width: 360px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: 1px solid #dadde1;
+}
+
+#Login {
+    background-color: #1877f2;
+    color: white;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    width: 95%;
+    margin: 10px 0 25px 10px;
+}
+
+#Login:hover {
+    background-color: #0d4fa4;
+    cursor: pointer;
+}
+
+#cna {
+    background-color: #42b72a;
+    color: white;
+    height: 50px;
+    width: 50%;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-left: 100px;
+}
+
+#cna:hover {
+    background-color: #1a7d06;
+    cursor: pointer;
+}
+
+.up a {
+    margin-left: 35%;
+    font-size: 18px;
+}
+
+hr {
+    border-bottom: 1px solid #dadde1;
+    margin: 20px 16px;
+}
+
+p {
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+a:hover {
+    cursor: pointer;
+}
+.right a:hover{
+    color: #1877f2;
+}
